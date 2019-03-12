@@ -42,8 +42,6 @@ node {
       }
     } catch (error) {
 
-    } finally {
-      junit '**/target/surefire-reports/*.xml'
-    }
+    } 
   }
 }
